@@ -105,10 +105,6 @@ body {
 
 .menu__btn {
   display: none;
-  width: 44px;
-  height: 44px;
-  border-radius: 3px;
-  transition: background-color 0.3s;
 }
 
 .menu__line {
@@ -235,7 +231,7 @@ body {
   position: fixed;
   justify-content: space-between;
   align-items: center;
-  padding-top: 75px;
+  padding: 75px 15px 0;
   right: 0;
   left: 0;
   margin: 0 auto;
@@ -245,7 +241,7 @@ body {
 .menu--fixed {
   padding-top: 25px;
   padding-bottom: 25px;
-  z-index: 1; 
+  z-index: 1;
   animation-name: fadeInUP;
   animation-duration: 1s;
 }
@@ -318,6 +314,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   padding-bottom: 33px;
+  z-index: -1;
   text-decoration: underline transparent;
   transition: opacity 0.5s, box-shadow 0.3s, text-decoration-color 0.5s;
 }
@@ -792,6 +789,10 @@ body {
 
   .menu__btn {
     display: block;
+    width: 44px;
+    height: 44px;
+    border-radius: 3px;
+    transition: background-color 0.3s;
   }
 
   .menu {
@@ -993,6 +994,10 @@ body {
 
   .menu__link {
     padding: 8px 0;
+  }
+
+  .header__content {
+    height: calc(100vh - 20px);
   }
 
 }

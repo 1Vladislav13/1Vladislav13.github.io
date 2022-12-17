@@ -10,7 +10,7 @@ $(function () {
       menu.classList.remove('menu--fixed')
   })
 
-  $('.menu__btn, .menu a').on('click', function () {
+  $('.menu__btn, .menu__link').on('click', function () {
     $('.menu__list').toggleClass('menu__list--active');
     $('.menu__btn').toggleClass('menu__btn--active');
   });
