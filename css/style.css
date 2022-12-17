@@ -290,7 +290,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: calc(100vh + 90px);
+  height: calc(100vh - 76px);
+  padding-top: 160px;
 }
 
 .header__subtitle {
@@ -996,9 +997,7 @@ body {
     padding: 8px 0;
   }
 
-  .header__content {
-    height: calc(100vh - 20px);
-  }
+ 
 
 }
 
@@ -1022,7 +1021,6 @@ body {
   .header__link {
     font-size: 14px;
     bottom: 15px;
-    z-index: -1;
   }
 
   .services__content {
@@ -1096,14 +1094,6 @@ body {
   .header__title {
     max-width: 365px;
     font-size: 39px;
-  }
-
-  .header__content {
-    height: calc(100vh - 77px);
-  }
-
-  .header__link {
-    z-index: -1;
   }
 
   .about__text,
